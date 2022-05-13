@@ -1,0 +1,19 @@
+{
+  "name": "@principlestudios/loadable",
+  "version": "0.0.1",
+  "description": "Simple loadable construct",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrincipleStudios/npm-loadable.git"
+  },
+  "author": "Principle Studios, Matt DeKrey, Justin Myers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PrincipleStudios/npm-loadable/issues"
+  },
+  "homepage": "https://github.com/PrincipleStudios/npm-loadable#readme"
+}
