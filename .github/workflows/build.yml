@@ -65,7 +65,7 @@ jobs:
 
     - name: Publish typescript npm package
       run:  |
-        if [[ $IS_PRERELEASE ]]; then npm version prerelease --preid=branch.$IS_PRERELEASE; fi
+        if [[ $IS_PRERELEASE ]]; then npm --no-git-tag-version version prerelease --preid=branch.$IS_PRERELEASE; fi
         npm publish || echo 'npm publish optional'
       continue-on-error: true # npm publish does not have a `--skip-duplicate` switch
       env:
