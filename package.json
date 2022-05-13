@@ -12,6 +12,7 @@
     "lint": "eslint src/ --ext .jsx,.js,.ts,.tsx",
     "lint:fix": "eslint src/ --ext .jsx,.js,.ts,.tsx --fix",
     "prepack": "npm run build",
+    "prepare": "husky install ./.husky",
     "test": "jest",
     "typecheck": "tsc --noemit"
   },
