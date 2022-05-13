@@ -1,6 +1,6 @@
 {
   "name": "@principlestudios/loadable",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Simple loadable construct",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
