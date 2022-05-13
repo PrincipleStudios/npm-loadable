@@ -3,9 +3,15 @@
   "version": "0.0.1",
   "description": "Simple loadable construct",
   "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
   "scripts": {
+    "build": "tsc",
     "lint": "eslint src/ --ext .jsx,.js,.ts,.tsx",
     "lint:fix": "eslint src/ --ext .jsx,.js,.ts,.tsx --fix",
+    "prepack": "npm run build",
     "test": "jest",
     "typecheck": "tsc --noemit"
   },

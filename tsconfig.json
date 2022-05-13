@@ -16,7 +16,9 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": false,
-    "baseUrl": "./"
+    "baseUrl": "./",
+    "outDir": "./lib",
+    "declaration": true
   },
   "include": [
     "./src/**/*"
