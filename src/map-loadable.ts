@@ -12,7 +12,7 @@ export function mapLoadable<TInput, TResult>(
 		initial?: () => TResult;
 		loading: (value?: TInput) => TResult;
 		loaded: (value: TInput) => TResult;
-		error: (error?: Error) => TResult;
+		error: (error?: unknown) => TResult;
 	}
 ): TResult {
 	if (isLoading(thing)) return whenLoading(thing.value);
