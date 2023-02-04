@@ -1,4 +1,4 @@
-import { neverEver } from 'src/internal/never-ever';
+import { neverEver } from './internal/never-ever';
 import { isError, isIdle, isLoaded, isLoading, Loadable } from './loadable';
 
 export function mapLoadable<TInput, TResult>(
