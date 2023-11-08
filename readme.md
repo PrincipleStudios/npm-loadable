@@ -1,3 +1,7 @@
+**Package moved to https://github.com/PrincipleStudios/jotai-react-signals**
+
+---
+
 A simple structure indicating a value that may or may not be loaded, but also encapsulates
 a range of intermediate states, including:
 
